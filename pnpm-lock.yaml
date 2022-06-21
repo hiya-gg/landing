@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@fontsource/inter': ^4.5.11
+  '@fontsource/poppins': ^4.5.8
   '@svgr/webpack': ^6.2.1
   '@tsconfig/node16': ^1.0.3
   '@types/node': ^18.0.0
@@ -33,7 +33,7 @@ specifiers:
   typescript: ^4.7.4
 
 dependencies:
-  '@fontsource/inter': 4.5.11
+  '@fontsource/poppins': 4.5.8
   clsx: 1.1.1
   next: 12.1.6_biqbaboplfbrettd7655fr4n2y
   next-seo: 5.4.0_2nrpme5s5xmpdgccbbbdwhosda
@@ -1349,8 +1349,8 @@ packages:
       - supports-color
     dev: true
 
-  /@fontsource/inter/4.5.11:
-    resolution: {integrity: sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==}
+  /@fontsource/poppins/4.5.8:
+    resolution: {integrity: sha512-HE9yLDxYJEcxooVrYvvEhtyxaYU32hQIx1+npKegVefceE0l0zi0ePqKWWxYxkFpyy6WuZSQ+9rai3INnYKEJA==}
     dev: false
 
   /@humanwhocodes/config-array/0.9.5:
