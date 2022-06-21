@@ -22,7 +22,10 @@ const links = [
 export default function HomePage() {
   return (
     <>
-      <NextSeo title="Landing" />
+      <NextSeo
+        title="Landing"
+        description="Hiya.gg is a social platform to connect all your accounts together. Let's connect, together."
+      />
 
       <div
         className="flex h-screen w-screen"
