@@ -23,7 +23,7 @@ export default function HomePage() {
   return (
     <>
       <NextSeo
-        title="Landing"
+        title="hiya!"
         description="Hiya.gg is a social platform to connect all your accounts together."
       />
 
@@ -35,7 +35,7 @@ export default function HomePage() {
           backgroundSize: "30px 30px",
         }}
       >
-        <div className="flex flex-col justify-between px-24 py-10 text-white">
+        <div className="flex flex-col justify-between p-10 md:px-24 md:py-10 text-white h-full w-full">
           <div className="flex flex-row gap-10">
             {links.map((link) => (
               <Link key={link.label} href={link.href} passHref>
