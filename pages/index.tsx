@@ -24,7 +24,7 @@ export default function HomePage() {
     <>
       <NextSeo
         title="Landing"
-        description="Hiya.gg is a social platform to connect all your accounts together. Let's connect, together."
+        description="Hiya.gg is a social platform to connect all your accounts together."
       />
 
       <div
