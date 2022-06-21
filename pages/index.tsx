@@ -52,7 +52,9 @@ export default function HomePage() {
           </div>
 
           <div>
-            <h1 className="text-7xl font-bold mb-4">hiya! 👋</h1>
+            <h1 className="text-7xl font-bold mb-4 hover:scale-[102%] transition-all origin-left">
+              hiya! 👋
+            </h1>
             <h2 className="text-3xl font-medium text-neutral-500 mb-4">
               let&apos;s connect, together.
             </h2>
@@ -60,17 +62,21 @@ export default function HomePage() {
             <p className="text-md text-neutral-700">Coming soon.</p>
           </div>
 
-          <div className="flex flex-row items-center gap-2">
-            <Logo />
+          <div className="flex">
+            <a href="https://zerite.dev" target="_blank" rel="noreferrer">
+              <div className="flex flex-row items-center gap-2 transition-all hover:scale-[102%] origin-left group">
+                <Logo className="group-hover:rotate-[30deg] transition-all" />
 
-            <div className="flex flex-col">
-              <p className="text-sm text-neutral-600">
-                Copyright &copy; {new Date().getFullYear()}
-              </p>
-              <p className="text-sm font-medium text-neutral-500">
-                Zerite Development
-              </p>
-            </div>
+                <div className="flex flex-col">
+                  <p className="text-sm text-neutral-600">
+                    Copyright &copy; {new Date().getFullYear()}
+                  </p>
+                  <p className="text-sm font-medium text-neutral-500">
+                    Zerite Development
+                  </p>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
