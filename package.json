@@ -10,8 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "pnpm run --silent lint:prettier && npm run --silent lint:eslint",
-    "lint:prettier": "prettier -w \"src/**/*.{js,jsx,ts,tsx}\" -u",
-    "lint:eslint": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\""
+    "lint:prettier": "prettier -w \"{components,pages}/**/*.{js,jsx,ts,tsx}\" -u",
+    "lint:eslint": "eslint --fix \"{components,pages}/**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
     "@svgr/webpack": "^6.2.1",
